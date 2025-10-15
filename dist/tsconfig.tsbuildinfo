@@ -1,0 +1,1 @@
+{"root":["../src/client/app.tsx","../src/client/main.tsx","../src/client/components/createdocument.tsx","../src/client/components/dashboard.tsx","../src/client/components/documentationpage.tsx","../src/server/index.ts","../src/server/youtrack.ts"],"errors":true,"version":"5.9.3"}

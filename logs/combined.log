@@ -1,0 +1,47 @@
+{
+  port: 3000,
+  env: 'development',
+  timestamp: '2025-10-15T02:34:41.548Z',
+  level: 'info',
+  message: 'Server started'
+}
+{
+  method: 'GET',
+  url: '/api/youtrack/tickets',
+  query: [Object: null prototype] {},
+  body: undefined,
+  ip: '::1',
+  level: 'info',
+  message: 'GET /api/youtrack/tickets',
+  timestamp: '2025-10-15T02:35:22.328Z'
+}
+{
+  url: 'https://your-youtrack-instance.com/api/issues',
+  level: 'info',
+  message: 'Fetching tickets from YouTrack',
+  timestamp: '2025-10-15T02:35:22.330Z'
+}
+{
+  error: 'request to https://your-youtrack-instance.com/api/issues failed, reason: getaddrinfo ENOTFOUND your-youtrack-instance.com',
+  stack: 'FetchError: request to https://your-youtrack-instance.com/api/issues failed, reason: getaddrinfo ENOTFOUND your-youtrack-instance.com\n' +
+    '    at ClientRequest.<anonymous> (file:///C:/Users/garyw/OneDrive/Desktop/Project/node_modules/node-fetch/src/index.js:108:11)\n' +
+    '    at ClientRequest.emit (node:events:519:28)\n' +
+    '    at ClientRequest.emit (node:domain:489:12)\n' +
+    '    at emitErrorEvent (node:_http_client:105:11)\n' +
+    '    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n' +
+    '    at TLSSocket.emit (node:events:519:28)\n' +
+    '    at TLSSocket.emit (node:domain:489:12)\n' +
+    '    at emitErrorNT (node:internal/streams/destroy:170:8)\n' +
+    '    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:90:21)',
+  level: 'error',
+  message: 'Error fetching tickets:',
+  timestamp: '2025-10-15T02:35:22.481Z'
+}
+{
+  port: 3000,
+  env: 'development',
+  timestamp: '2025-10-15T02:41:29.468Z',
+  level: 'info',
+  message: 'Server started'
+}
