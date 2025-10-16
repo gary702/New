@@ -1,6 +1,7 @@
 import express from 'express';
 import fetch from 'node-fetch';
 import logger from '../utils/logger.js';
+import type { YouTrackTicket, DocumentationEntry } from '../types/youtrack';
 
 const router = express.Router();
 const YOUTRACK_API_URL = process.env.YOUTRACK_API_URL || 'https://your-youtrack-instance.com/api';

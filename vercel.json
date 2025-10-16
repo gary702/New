@@ -11,8 +11,13 @@
       "config": { "zeroConfig": true }
     }
   ],
+  "env": {
+    "YOUTRACK_API_URL": "@youtrack_api_url",
+    "YOUTRACK_TOKEN": "@youtrack_token"
+  },
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/api/tickets", "dest": "/api/tickets.ts" },
+    { "src": "/api/document", "dest": "/api/document.ts" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
